@@ -4,12 +4,10 @@ addEventListener("fetch", (event) => {
 });
 
 const dockerHub = "https://registry-1.docker.io";
-const github = "https://www.github.com"
 
 const routes = {
   // production
-  "docker.twistzz.xyz": dockerHub,
-  "google.twistzz.xyz": github
+  "docker.twistzz.xyz": dockerHub
 };
 
 function routeByHosts(host) {
